@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;}
+body{background-color:rgb(249, 248, 255);
+    padding: 5px;
+}
+#fullwraper{ width: 960px;
+    margin: 0px; auto;
+    text-align: center;
+}
+#header{
+    background-color: darkturquoise;
+    padding: 15px;
+    border-bottom: 5px solid #7411d1;
+}
+#header h2{
+    color: darkviolet;
+}
+#header P{
+    color: floralwhite;
+}
+@media only screen and (min-width: 0px){
+
+    
+
+}
+@media only screen and (min-width:600px){
+    #nav{
+        background-color: cornsilk;
+        border-bottom: 5px #7411d1 ;
+        height: 38px;
+        text-align: center;
+    }
+    #nav ul{
+        background-color: cornsilk;
+        list-style-type: none;
+    }
+    #nav ul li{
+        float:left;
+        border-right: 2px solid #7411d1 ;
+    
+    }
+    #nav ul li:last-child{ border: none;}
+    #nav ul li a{
+        text-decoration: none;
+        color: seagreen;
+        padding: 10px 15px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #nav ul li a:hover{
+        background-color:chartreuse;
+    }
+    #nav ul li ul{
+        position: absolute;
+        left: -99999999px;
+    }
+    #nav ul li {
+        position: relative;
+    }
+    #nav ul li:hover ul{
+        left: 0px;
+    }
+    #nav ul li ul li{
+        border-bottom:2px solid  #7411d1 ;
+        border-right: none;
+        width: 100px;
+    }
+    #nav ul li ul li:first-child{
+        border-top: 2px solid  #7411d1 ;
+    }
+    
+}
+
+#slider img{
+    width: 960px ;
+    border-top: 5px solid  #7411d1;
+    vertical-align: middle;
+    border-bottom: 5px solid  #7411d1;
+    margin-bottom: 5px;
+}
+#content-wraper{
+    background-color: cornsilk;
+    padding: 5px;
+    overflow: hidden;
+    width: 960px;
+    
+}
+#content{
+    float: left;
+    width:600px ;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#content h2{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#sidebar{
+    width: 300px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+#sidebar ul{
+list-style-type: square;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: darkblue;
+    display: block;
+}
+#sidebar h2{
+    margin-bottom: 5px;
+    color: rgb(59, 27, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #footer{  
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: blanchedalmond;
+    width: 920px;
+}
